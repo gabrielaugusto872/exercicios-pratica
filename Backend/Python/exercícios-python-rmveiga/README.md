@@ -13,9 +13,3 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 
 ### `Projetos`
 - [Título](link)
-
-
- ---
-## Créditos
-Exercícios baseados no repositório de [rmveiga](https://github.com/rmveiga/exercicios_python).  
-As resoluções são de minha autoria.

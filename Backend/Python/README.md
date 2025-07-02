@@ -3,3 +3,6 @@
 
 ## Pastas de Exercícios
 - [Exercícios Python Rmveiga](exercícios-python-rmveiga/README.md)
+- [Python Brasil](exercícios-python-Brasil/README.md)
+- [Machine Learning Plus](exercícios-machine-learning-plus/README.md)
+- [PYnative Python Programming](pynative-python-programming/README.md)
