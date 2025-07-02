@@ -4,7 +4,7 @@ Repositório com exercícios baseados no [PYnative Python Programming](https://p
 
 Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 
-## 📑 Nível
+## 📑 Tema
 ### `Básico Para Iniciantes`
 - [Título](link)
 
