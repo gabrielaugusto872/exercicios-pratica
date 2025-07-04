@@ -7,6 +7,7 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 ## 📑 Temas
 ### `Estrutura Sequencial`
 - [Hello World](estrutura-sequencial/hello_world.py)
+- [Número](estrutura-sequencial/número.py)
 
 ### `Estrutura de Decisão`
 - [Título](link)
