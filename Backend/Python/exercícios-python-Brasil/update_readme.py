@@ -1,24 +1,34 @@
 import os
-import urllib.parse
 
-def listar_certificados():
-    conteudo = "# 📄 Certificados\n\n"
-    conteudo += "> Aréa para salvar meus certificados adquiridos ao longo do curso\n\n"
-    conteudo += "## Módulos\n"
+SECTIONS = {
+    "estrutura-sequencial": "Estrutura Sequencial",
+    "estrutura-decisao": "Estrutura de Decisão",
+    "estrutura-de-repeticao": "Estrutura de Repetição",
+    "listas": "Listas"
+}
 
-    modulos = sorted([d for d in os.listdir() if os.path.isdir(d) and "Módulo" in d])
+def gerar_links():
+    conteudo = "# Exercícios Python Brasil\n\n"
+    conteudo += "Repositório com exercícios originalmente postados em [Python.org](https://wiki.python.org.br/ListaDeExercicios). Atualmente rodando direto no browser em [Exercicios Dunossauro](https://exercicios.dunossauro.com)\n\n"
+    conteudo += "Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.\n\n"
+    conteudo += "## 📑 Temas\n"
 
-    for modulo in modulos:
-        conteudo += f"- ### {modulo}\n"
-        arquivos = sorted(os.listdir(modulo), key=lambda f: os.path.getctime(os.path.join(modulo, f)))
-        for arq in arquivos:
-            if arq.endswith(".pdf"):
-                nome = arq.replace(".pdf", "").replace("%", "%%")
-                link = f"{modulo}/{urllib.parse.quote(arq)}"
-                conteudo += f"    - [{nome}]({link})\n"
-        conteudo += "\n"
+    for pasta, titulo in SECTIONS.items():
+        conteudo += f"### `{titulo}`\n"
+        caminho = os.path.join(pasta)
+        if os.path.exists(caminho):
+            arquivos = sorted(
+                os.listdir(caminho),
+                key=lambda nome: os.path.getctime(os.path.join(caminho, nome))
+            )
+            for arq in arquivos:
+                if arq.endswith(".py"):
+                    nome = arq.replace(".py", "").replace("_", " ").title()
+                    link = f"{pasta}/{arq}"
+                    conteudo += f"- [{nome}]({link})\n"
 
+    conteudo += "\n---\n## Créditos\nTestes feitos pelo repositório [lista-de-exercicios-python-brasil](https://github.com/devpro-br/lista-de-exercicios-python-brasil.git)."
     return conteudo
 
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write(listar_certificados())
+     f.write(gerar_links())
