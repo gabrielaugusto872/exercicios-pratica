@@ -26,6 +26,7 @@ def gerar_links():
                     nome = arq.replace(".py", "").replace("_", " ").title()
                     link = f"{pasta}/{arq}"
                     conteudo += f"- [{nome}]({link})\n"
+        conteudo += "\n"
 
     conteudo += "\n---\n## Créditos\nTestes feitos pelo repositório [lista-de-exercicios-python-brasil](https://github.com/devpro-br/lista-de-exercicios-python-brasil.git)."
     return conteudo
