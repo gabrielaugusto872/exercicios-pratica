@@ -17,9 +17,13 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Temperatura Conversão](estrutura-sequencial/temperatura_conversão.py)
 - [Temperatura Conversão 2](estrutura-sequencial/temperatura_conversão_2.py)
 - [Calculadora Simples](estrutura-sequencial/calculadora_simples.py)
+
 ### `Estrutura de Decisão`
+
 ### `Estrutura de Repetição`
+
 ### `Listas`
+
 
 ---
 ## Créditos
