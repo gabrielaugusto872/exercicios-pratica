@@ -17,7 +17,10 @@ def gerar_links():
         conteudo += f"### `{titulo}`\n"
         caminho = os.path.join(pasta)
         if os.path.exists(caminho):
-            arquivos = sorted(os.listdir(caminho))
+            arquivos = sorted(
+                os.listdir(caminho),
+                key=lambda nome: os.path.getctime(os.path.join(caminho, nome))
+            )
             for arq in arquivos:
                 if arq.endswith(".py"):
                     nome = arq.replace(".py", "").replace("_", " ").title()
