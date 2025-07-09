@@ -9,3 +9,4 @@ velocidade = velocidade_Mbps / 8
 tempo_de_download = tamanho / velocidade
 tempo_em_minutos = tempo_de_download / 60
 print(f"O tempo de download esperado é de {tempo_em_minutos} minutos.")
+
