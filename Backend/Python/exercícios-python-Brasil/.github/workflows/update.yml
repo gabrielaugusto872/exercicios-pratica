@@ -5,6 +5,9 @@ on:
     paths:
       - '**.py'
 
+permissions:
+  contents: write
+
 jobs:
   atualizar-readme:
     runs-on: ubuntu-latest
