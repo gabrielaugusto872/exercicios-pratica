@@ -2,7 +2,7 @@ import os
 
 SECTIONS = {
     "estrutura-sequencial": "Estrutura Sequencial",
-    "estrutura-decisao": "Estrutura de Decisão",
+    "estrutura-de-decisao": "Estrutura de Decisão",
     "estrutura-de-repeticao": "Estrutura de Repetição",
     "listas": "Listas"
 }
