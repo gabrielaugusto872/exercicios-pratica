@@ -23,6 +23,7 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Salario 2](estrutura-sequencial/salario_2.py)
 - [Loja De Tintas](estrutura-sequencial/loja_de_tintas.py)
 - [Tempo De Download](estrutura-sequencial/tempo_de_download.py)
+- [Teste](estrutura-sequencial/teste.py)
 
 ### `Estrutura de Decisão`
 
