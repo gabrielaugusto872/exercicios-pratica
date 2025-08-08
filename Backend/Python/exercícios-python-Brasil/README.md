@@ -30,7 +30,6 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Raizes](estrutura-de-decisão/raizes.py)
 - [Reajuste Salario](estrutura-de-decisão/reajuste_salario.py)
 - [Sacolao](estrutura-de-decisão/sacolao.py)
-- [Teste](estrutura-de-decisão/teste.py)
 - [Triangulo](estrutura-de-decisão/triangulo.py)
 - [Turnos](estrutura-de-decisão/turnos.py)
 - [Vogal Consoante](estrutura-de-decisão/vogal_consoante.py)
@@ -53,7 +52,6 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Temperatura Conversão](estrutura-sequencial/temperatura_conversão.py)
 - [Temperatura Conversão 2](estrutura-sequencial/temperatura_conversão_2.py)
 - [Tempo De Download](estrutura-sequencial/tempo_de_download.py)
-- [Teste](estrutura-sequencial/teste.py)
 
 
 ---
