@@ -5,7 +5,7 @@ Repositório com exercícios originalmente postados em [Python.org](https://wiki
 Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 
 ## 📑 Temas
-### `estrutura-de-decisão`
+### `Estrutura De Decisão`
 - [Csi](estrutura-de-decisão/CSI.py)
 - [Ano Bissexto](estrutura-de-decisão/ano_bissexto.py)
 - [Caixa Eletronico](estrutura-de-decisão/caixa_eletronico.py)
@@ -35,7 +35,7 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Turnos](estrutura-de-decisão/turnos.py)
 - [Vogal Consoante](estrutura-de-decisão/vogal_consoante.py)
 
-### `estrutura-sequencial`
+### `Estrutura Sequencial`
 - [Area](estrutura-sequencial/area.py)
 - [Area Quadrado](estrutura-sequencial/area_quadrado.py)
 - [Calculadora Simples](estrutura-sequencial/calculadora_simples.py)
