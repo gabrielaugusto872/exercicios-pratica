@@ -34,6 +34,15 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Turnos](estrutura-de-decisão/turnos.py)
 - [Vogal Consoante](estrutura-de-decisão/vogal_consoante.py)
 
+### `Estrutura De Repetição`
+- [Ficha](estrutura-de-repetição/ficha.py)
+- [Maior](estrutura-de-repetição/maior.py)
+- [Nota](estrutura-de-repetição/nota.py)
+- [Numeros](estrutura-de-repetição/numeros.py)
+- [Populacao](estrutura-de-repetição/populacao.py)
+- [Populacao 2](estrutura-de-repetição/populacao_2.py)
+- [Senha](estrutura-de-repetição/senha.py)
+
 ### `Estrutura Sequencial`
 - [Area](estrutura-sequencial/area.py)
 - [Area Quadrado](estrutura-sequencial/area_quadrado.py)
