@@ -1,5 +1,14 @@
 import os
 
+# Dicionário com nomes bonitos para as pastas
+TITULOS = {
+    "estrutura-sequencial": "Estrutura Sequencial",
+    "estrutura-decisao": "Estrutura de Decisão",
+    "estrutura-de-repeticao": "Estrutura de Repetição",
+    "listas": "Listas"
+    # Adicione outras pastas conforme necessário
+}
+
 def gerar_links():
     conteudo = "# Exercícios Python Brasil\n\n"
     conteudo += "Repositório com exercícios originalmente postados em [Python.org](https://wiki.python.org.br/ListaDeExercicios). Atualmente rodando direto no browser em [Exercicios Dunossauro](https://exercicios.dunossauro.com)\n\n"
@@ -10,7 +19,9 @@ def gerar_links():
         if os.path.isdir(pasta) and not pasta.startswith("."):
             arquivos_py = sorted([f for f in os.listdir(pasta) if f.endswith(".py")])
             if arquivos_py:
-                conteudo += f"### `{pasta}`\n"
+                # Usa nome bonito se existir, senão mantém o nome da pasta
+                titulo = TITULOS.get(pasta, pasta.replace("-", " ").title())
+                conteudo += f"### `{titulo}`\n"
                 for arq in arquivos_py:
                     nome = arq.replace(".py", "").replace("_", " ").title()
                     link = f"{pasta}/{arq}"
