@@ -61,6 +61,21 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Populacao 2](estrutura-de-repetição/populacao_2.py)
 - [Numeros](estrutura-de-repetição/numeros.py)
 - [Maior](estrutura-de-repetição/maior.py)
+- [Soma Media](estrutura-de-repetição/soma_media.py)
+- [Impares](estrutura-de-repetição/impares.py)
+- [Intervalo](estrutura-de-repetição/intervalo.py)
+- [Intervalo Soma](estrutura-de-repetição/intervalo_soma.py)
+- [Tabuada](estrutura-de-repetição/tabuada.py)
+- [Potencia](estrutura-de-repetição/potencia.py)
+- [Pares Impares](estrutura-de-repetição/pares_impares.py)
+- [Fibonacci](estrutura-de-repetição/fibonacci.py)
+- [Fibonacci 2](estrutura-de-repetição/fibonacci_2.py)
+- [Fatorial](estrutura-de-repetição/fatorial.py)
+- [Menor Maior Soma](estrutura-de-repetição/menor_maior_soma.py)
+- [Menor Maior Soma 2](estrutura-de-repetição/menor_maior_soma_2.py)
+- [Fatorial 2](estrutura-de-repetição/fatorial_2.py)
+- [Numero Primo](estrutura-de-repetição/numero_primo.py)
+- [Numero Primo 2](estrutura-de-repetição/numero_primo_2.py)
 
 
 ---
