@@ -76,6 +76,20 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Fatorial 2](estrutura-de-repetição/fatorial_2.py)
 - [Numero Primo](estrutura-de-repetição/numero_primo.py)
 - [Numero Primo 2](estrutura-de-repetição/numero_primo_2.py)
+- [Numero Primo 3](estrutura-de-repetição/numero_primo_3.py)
+- [Media Notas](estrutura-de-repetição/media_notas.py)
+- [Media Idade](estrutura-de-repetição/media_idade.py)
+- [Eleicao](estrutura-de-repetição/eleicao.py)
+- [Alunos Por Turma](estrutura-de-repetição/alunos_por_turma.py)
+- [Colecao De Cds](estrutura-de-repetição/colecao_de_cds.py)
+- [Tabela](estrutura-de-repetição/tabela.py)
+- [Tabela Padaria](estrutura-de-repetição/tabela_padaria.py)
+- [Tabela Loja](estrutura-de-repetição/tabela_loja.py)
+- [Metereologia](estrutura-de-repetição/metereologia.py)
+- [Tabuada 2](estrutura-de-repetição/tabuada_2.py)
+- [Academia](estrutura-de-repetição/academia.py)
+- [Salario Anual](estrutura-de-repetição/salario_anual.py)
+- [Acidentes De Transito](estrutura-de-repetição/acidentes_de_transito.py)
 
 
 ---
