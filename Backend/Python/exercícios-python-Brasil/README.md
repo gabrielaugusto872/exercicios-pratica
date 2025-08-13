@@ -90,6 +90,16 @@ Aqui estão as resoluções feitas por mim para os exercícios dessa fonte.
 - [Academia](estrutura-de-repetição/academia.py)
 - [Salario Anual](estrutura-de-repetição/salario_anual.py)
 - [Acidentes De Transito](estrutura-de-repetição/acidentes_de_transito.py)
+- [Divida](estrutura-de-repetição/divida.py)
+- [Intervalo 2](estrutura-de-repetição/intervalo_2.py)
+- [Lanchonete](estrutura-de-repetição/lanchonete.py)
+- [Eleição 2](estrutura-de-repetição/eleição_2.py)
+- [Gabarito](estrutura-de-repetição/gabarito.py)
+- [Salto](estrutura-de-repetição/salto.py)
+- [Ginástica](estrutura-de-repetição/ginástica.py)
+- [Numero Invertido](estrutura-de-repetição/numero_invertido.py)
+- [Series](estrutura-de-repetição/series.py)
+- [Series 2](estrutura-de-repetição/series_2.py)
 
 
 ---
